@@ -1,40 +1,42 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Basketball scoreboard</title>
-  <link rel="stylesheet" href="style.css">
-</head>
-<body>
-  <div class="container">
-    <div class="scoreboard">
-       <div class="team-container">
-          <h2 class="text">HOME</h2>
-          <div class="one">
-             <p class="pts" id="home-add-point">0</p>
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <title>Basketball Scoreboard</title>
+  </head>
+  <body>
+    <div class="primary-container">
+      <div class="container">
+        <div class="scoreboard">
+          <h3 class="home">HOME</h3>
+          <div class="score-house">
+            <h1 class="home-and-guest-num" id="home-count-el">0</h1>
           </div>
-          <div class="two">
-             <button type="button" id="home-count-one">+1</button>
-             <button type="button" id="home-count-two">+2</button>
-             <button type="button" id="home-count-three">+3</button>
+          <div class="scorebtns">
+            <button class="btn" id="home-count-one">+1</button>
+            <button class="btn" id="home-count-two">+2</button>
+            <button class="btn" id="home-count-three">+3</button>
           </div>
-       </div>
-       <div class="team-container">
-          <h2 class="text">GUEST</h2>
-          <div class="one">
-             <p class="pts" id="guest-pts">0</p>
+        </div>
+
+        <div class="scoreboard">
+          <h3 class="guest">GUEST</h3>
+          <div class="score-house">
+            <h1 class="home-and-guest-num" id="guest-count-el">0</h1>
           </div>
-          <div class="two">
-             <button type="button" id="guest-count-one">+1</button>
-             <button type="button" id="guest-count-two">+2</button>
-             <button type="button" id="guest-count-three">+3</button>
+          <div class="scorebtns">
+            <button class="btn" id="guest-count-one">+1</button>
+            <button class="btn" id="guest-count-two">+2</button>
+            <button class="btn" id="guest-count-three">+3</button>
           </div>
-       </div>
+        </div>
+      </div>
+
+      <button class="resetgame" id="reset">NEW GAME</button>
     </div>
-  </div>
-  <script src="scripts.js"></script>
-</body>
+    <script src="scripts.js"></script>
+  </body>
 </html>
-
-
