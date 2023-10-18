@@ -1,6 +1,6 @@
 # Basketball Scoreboard
 
-> chore: Project built with semantic html and some css styles and Javascript that contain more on addEventListener.
+> chore: Project built with semantic html and some css styles and Javascript that contain more on addEventListener and querySelector.
 
 ![screenshot](./app_screenshot.png)
 
