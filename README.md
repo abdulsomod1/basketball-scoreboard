@@ -1,6 +1,6 @@
 # Basketball Scoreboard
 
-> chore: Project built with semantic html and some css styles and Javascript that contain more on addEventListener. 
+> chore: Project built with semantic html and some css styles and Javascript that contain more on addEventListener.
 
 ![screenshot](./app_screenshot.png)
 
@@ -11,7 +11,7 @@ The project is one of the project that tells about the doer .
 - HTML5 form elements
   - `div`, `button`, `h1`, `h2`.
 - CSS properties
-  - `background-color`, `display`, `justify-content`.
+  - `background-color`, `display`, `justify-content` `margin`.
 - Linters
   - [Prettier](https://prettier.io/),
   - [Stylelint](https://stylelint.io/).
@@ -22,7 +22,6 @@ The project is one of the project that tells about the doer .
 - HTML semantic elements : input , div , img and ul etc .
 - CSS elements : display flex , flex direction , margin etc .
 - Reamdme
-
 
 ## Live Demo
 

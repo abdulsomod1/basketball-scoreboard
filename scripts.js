@@ -9,7 +9,7 @@ const guestCountOne = document.querySelector('#guest-count-one');
 const guestCountTwo = document.querySelector('#guest-count-two');
 const guestCountThree = document.querySelector('#guest-count-three');
 
-const reset = document.querySelector('#reset')
+const reset = document.querySelector('#reset');
 
 homeCountOne.addEventListener('click', function handler() {
   homeCountEl.textContent = Number(homeCountEl.textContent) + 1;
@@ -36,6 +36,6 @@ guestCountThree.addEventListener('click', function handler() {
 });
 
 reset.addEventListener('click', function handler() {
-  homeCountEl.textContent= 0;
-  guestCountEl.textContent= 0;
-})
+  homeCountEl.textContent = 0;
+  guestCountEl.textContent = 0;
+});
