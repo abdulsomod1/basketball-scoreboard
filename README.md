@@ -1,6 +1,6 @@
 # Basketball Scoreboard
 
-> The project contains some information .
+> Project built with semantic html and some css styles and Javascript that contain more on addEventListener and querySelector.
 
 ![screenshot](./app_screenshot.png)
 
@@ -8,8 +8,19 @@ The project is one of the project that tells about the doer .
 
 ## Built With
 
-- HTML,
-- CSS,
+- HTML5 form elements
+  - `div`, `button`, `h1`, `h2`.
+- CSS properties
+  - `background-color`, `display`, `justify-content` `margin`.
+- Linters
+  - [Prettier](https://prettier.io/),
+  - [Stylelint](https://stylelint.io/).
+- GitHub Action
+
+## Built With
+
+- HTML semantic elements : input , div , img and ul etc .
+- CSS elements : display flex , flex direction , margin etc .
 - Reamdme
 
 ## Live Demo
